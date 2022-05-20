@@ -19,16 +19,15 @@ smix reset
 smix 0 6 1 100 0 -1
 smix 1 4 0 100 0 -1
 smix 2 3 0 100 0 -1
-smix 3 6 3 -10 0 -1
 
 # servo
 servo 0 1000 2000 1500 100
 servo 1 1000 2000 1500 100
 servo 2 1000 2000 1500 100
-servo 3 1000 2000 1470 100
-servo 4 1000 2000 1530 -100
+servo 3 1000 2000 1500 100
+servo 4 1000 2000 1500 -100
 servo 5 1000 2000 1500 100
-servo 6 1000 2000 1455 100
+servo 6 1000 2000 1500 100
 servo 7 1000 2000 1500 100
 servo 8 1000 2000 1500 100
 servo 9 1000 2000 1500 100
@@ -1037,8 +1036,8 @@ set failsafe_fw_yaw_rate = -45
 set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
-set align_board_roll = 4
-set align_board_pitch = -25
+set align_board_roll = -20
+set align_board_pitch = -13
 set align_board_yaw = 10
 set vbat_meter_type = ADC
 set vbat_scale = 1100
@@ -1371,7 +1370,7 @@ set fw_ff_pitch = 30
 set fw_p_roll = 8
 set fw_i_roll = 7
 set fw_d_roll = 0
-set fw_ff_roll = 45
+set fw_ff_roll = 60
 set fw_p_yaw = 6
 set fw_i_yaw = 10
 set fw_d_yaw = 0
