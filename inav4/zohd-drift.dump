@@ -1,3 +1,4 @@
+
 # version
 # INAV/MATEKF411TE 4.1.0 Mar 29 2022 / 12:27:37 (eaa27a45)
 # GCC-10.2.1 20201103 (release)
@@ -1123,7 +1124,7 @@ set align_board_yaw = 1800
 set vbat_meter_type = ADC
 set vbat_scale = 1100
 set current_meter_scale = 250
-set current_meter_offset = 0
+set current_meter_offset = 110
 set current_meter_type = ADC
 set bat_voltage_src = RAW
 set cruise_power = 0
