@@ -1011,8 +1011,7 @@ osd_layout 3 129 0 10 H
 # master
 set looptime = 1000
 set align_gyro = DEFAULT
-set gyro_hardware_lpf = ### ERROR: VALUE 101 OUT OF RANGE FOR gyro_hardware_lpf
-
+set gyro_hardware_lpf = 256HZ
 set gyro_anti_aliasing_lpf_hz = 250
 set gyro_anti_aliasing_lpf_type = PT1
 set moron_threshold = 32
@@ -1566,7 +1565,7 @@ set nav_fw_cruise_thr = 1400
 set nav_fw_min_thr = 1200
 set nav_fw_max_thr = 1700
 set nav_fw_pitch2thr = 10
-set nav_fw_launch_thr = 1500
+set nav_fw_launch_thr = 1700
 set nav_fw_launch_idle_thr = 1000
 set limit_cont_current = 0
 set limit_burst_current = 0
