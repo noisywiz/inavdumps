@@ -1,4 +1,3 @@
-
 # version
 # INAV/MATEKF411TE 4.1.0 Mar 29 2022 / 12:27:37 (eaa27a45)
 # GCC-10.2.1 20201103 (release)
@@ -25,10 +24,10 @@ smix 2 3 0 100 0 -1
 servo 0 1000 2000 1500 100
 servo 1 1000 2000 1500 100
 servo 2 1000 2000 1500 100
-servo 3 1000 2000 1465 100
-servo 4 1000 2000 1535 -100
+servo 3 1000 2000 1450 100
+servo 4 1000 2000 1550 -100
 servo 5 1000 2000 1500 100
-servo 6 1000 2000 1405 100
+servo 6 1000 2000 1455 100
 servo 7 1000 2000 1500 100
 servo 8 1000 2000 1500 100
 servo 9 1000 2000 1500 100
@@ -290,7 +289,7 @@ aux 1 1 1 1750 2100
 aux 2 12 1 900 1225
 aux 3 10 2 1775 2100
 aux 4 13 2 900 1175
-aux 5 0 0 900 900
+aux 5 48 3 1525 2100
 aux 6 0 0 900 900
 aux 7 0 0 900 900
 aux 8 0 0 900 900
@@ -495,7 +494,7 @@ osd_layout 0 3 8 6 V
 osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
 osd_layout 0 6 23 9 H
-osd_layout 0 7 24 12 V
+osd_layout 0 7 1 11 V
 osd_layout 0 8 1 1 V
 osd_layout 0 9 1 7 V
 osd_layout 0 10 8 6 H
@@ -518,7 +517,7 @@ osd_layout 0 26 24 7 H
 osd_layout 0 27 3 5 H
 osd_layout 0 28 23 11 H
 osd_layout 0 29 23 12 H
-osd_layout 0 30 2 12 V
+osd_layout 0 30 1 12 V
 osd_layout 0 31 0 10 H
 osd_layout 0 32 14 1 V
 osd_layout 0 33 6 2 H
