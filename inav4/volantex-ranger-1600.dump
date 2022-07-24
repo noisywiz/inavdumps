@@ -491,55 +491,55 @@ wp 118 0 0 0 0 0 0 0 0
 wp 119 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 23 0 V
-osd_layout 0 1 12 0 V
+osd_layout 0 0 23 1 V
+osd_layout 0 1 17 1 V
 osd_layout 0 2 0 0 H
-osd_layout 0 3 8 6 H
-osd_layout 0 4 8 6 H
+osd_layout 0 3 8 6 V
+osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
 osd_layout 0 6 23 9 H
-osd_layout 0 7 13 12 V
-osd_layout 0 8 20 2 H
-osd_layout 0 9 1 2 V
-osd_layout 0 10 8 6 H
-osd_layout 0 11 2 3 V
-osd_layout 0 12 1 4 V
+osd_layout 0 7 0 10 V
+osd_layout 0 8 0 1 V
+osd_layout 0 9 0 4 V
+osd_layout 0 10 0 11 V
+osd_layout 0 11 0 2 V
+osd_layout 0 12 0 3 V
 osd_layout 0 13 23 1 H
-osd_layout 0 14 0 11 V
-osd_layout 0 15 1 0 V
+osd_layout 0 14 26 1 V
+osd_layout 0 15 23 8 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
 osd_layout 0 19 15 1 H
-osd_layout 0 20 18 12 H
-osd_layout 0 21 0 12 H
-osd_layout 0 22 14 11 H
-osd_layout 0 23 1 1 H
+osd_layout 0 20 20 2 V
+osd_layout 0 21 20 3 V
+osd_layout 0 22 15 9 V
+osd_layout 0 23 13 10 V
 osd_layout 0 24 12 2 H
 osd_layout 0 25 23 5 H
-osd_layout 0 26 24 7 H
+osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
-osd_layout 0 28 23 11 V
+osd_layout 0 28 23 11 H
 osd_layout 0 29 23 12 H
-osd_layout 0 30 1 13 V
+osd_layout 0 30 1 14 V
 osd_layout 0 31 0 10 H
-osd_layout 0 32 12 1 H
+osd_layout 0 32 12 1 V
 osd_layout 0 33 6 2 H
-osd_layout 0 34 18 2 H
+osd_layout 0 34 11 12 V
 osd_layout 0 35 1 5 H
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 1 8 H
+osd_layout 0 41 3 8 V
 osd_layout 0 42 1 7 H
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
 osd_layout 0 45 0 0 H
 osd_layout 0 46 3 6 H
 osd_layout 0 47 3 7 H
-osd_layout 0 48 23 7 H
+osd_layout 0 48 23 10 H
 osd_layout 0 49 23 6 H
 osd_layout 0 50 0 0 H
 osd_layout 0 51 12 2 H
@@ -577,7 +577,7 @@ osd_layout 0 82 2 12 H
 osd_layout 0 83 2 12 H
 osd_layout 0 84 2 12 H
 osd_layout 0 85 23 1 H
-osd_layout 0 86 19 2 H
+osd_layout 0 86 1 15 V
 osd_layout 0 87 19 3 H
 osd_layout 0 88 19 4 H
 osd_layout 0 89 19 5 H
@@ -596,14 +596,14 @@ osd_layout 0 101 12 5 H
 osd_layout 0 102 12 6 H
 osd_layout 0 103 12 7 H
 osd_layout 0 104 0 0 H
-osd_layout 0 105 3 5 H
+osd_layout 0 105 0 12 V
 osd_layout 0 106 1 2 H
-osd_layout 0 107 1 3 H
+osd_layout 0 107 24 15 V
 osd_layout 0 108 2 12 H
-osd_layout 0 109 23 12 H
-osd_layout 0 110 23 11 H
+osd_layout 0 109 24 5 V
+osd_layout 0 110 25 4 V
 osd_layout 0 111 24 9 H
-osd_layout 0 112 24 10 H
+osd_layout 0 112 2 12 H
 osd_layout 0 113 1 1 H
 osd_layout 0 114 1 2 H
 osd_layout 0 115 1 3 H
@@ -615,7 +615,7 @@ osd_layout 0 120 0 0 H
 osd_layout 0 121 3 4 H
 osd_layout 0 122 3 5 H
 osd_layout 0 123 3 6 H
-osd_layout 0 124 23 2 H
+osd_layout 0 124 23 9 H
 osd_layout 0 125 0 0 H
 osd_layout 0 126 0 0 H
 osd_layout 0 127 0 0 H
@@ -1317,14 +1317,14 @@ set mavlink_extra3_rate = 1
 set mavlink_version = 2
 set ledstrip_visual_beeper = OFF
 set osd_telemetry = OFF
-set osd_video_system = AUTO
+set osd_video_system = PAL
 set osd_row_shiftdown = 0
 set osd_units = METRIC
 set osd_stats_energy_unit = MAH
 set osd_stats_min_voltage_unit = BATTERY
 set osd_stats_page_auto_swap_time = 3
 set osd_rssi_alarm = 20
-set osd_time_alarm = 10
+set osd_time_alarm = 20
 set osd_alt_alarm = 100
 set osd_dist_alarm = 1000
 set osd_neg_alt_alarm = 5
@@ -1403,8 +1403,8 @@ set vtx_halfduplex = ON
 set vtx_smartaudio_early_akk_workaround = ON
 set vtx_smartaudio_alternate_softserial_method = ON
 set vtx_band = 4
-set vtx_channel = 7
-set vtx_power = 3
+set vtx_channel = 1
+set vtx_power = 1
 set vtx_low_power_disarm = ON
 set vtx_pit_mode_chan = 1
 set vtx_max_power_override = 0
