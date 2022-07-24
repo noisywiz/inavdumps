@@ -126,12 +126,14 @@ feature -FW_AUTOTRIM
 feature VBAT
 feature TX_PROF_SEL
 feature MOTOR_STOP
+feature GPS
 feature TELEMETRY
 feature CURRENT_METER
 feature BLACKBOX
 feature AIRMODE
 feature PWM_OUTPUT_ENABLE
 feature OSD
+feature FW_LAUNCH
 feature FW_AUTOTRIM
 
 # beeper
@@ -177,7 +179,7 @@ map AETR
 # serial
 serial 20 1 115200 115200 0 115200
 serial 0 1 115200 115200 0 115200
-serial 1 0 115200 115200 0 115200
+serial 1 2 115200 115200 0 115200
 serial 2 0 115200 115200 0 115200
 serial 3 0 115200 115200 0 115200
 serial 5 64 115200 115200 0 115200
@@ -1066,7 +1068,7 @@ set imu2_gain_mag_z = 0
 set imu2_radius_acc = 0
 set imu2_radius_mag = 0
 set align_mag = CW270FLIP
-set mag_hardware = NONE
+set mag_hardware = QMC5883
 set mag_declination = 0
 set magzero_x = 0
 set magzero_y = 0
@@ -1113,7 +1115,7 @@ set failsafe_delay = 5
 set failsafe_recovery_delay = 5
 set failsafe_off_delay = 200
 set failsafe_throttle_low_delay = 0
-set failsafe_procedure = LAND
+set failsafe_procedure = RTH
 set failsafe_stick_threshold = 50
 set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
@@ -1388,7 +1390,7 @@ set osd_speed_source = GROUND
 set i2c_speed = 400KHZ
 set debug_mode = NONE
 set throttle_tilt_comp_str = 0
-set name = 
+set name = noisywiz
 set mode_range_logic_operator = OR
 set stats = OFF
 set stats_total_time = 0
@@ -1401,9 +1403,9 @@ set vtx_halfduplex = ON
 set vtx_smartaudio_early_akk_workaround = ON
 set vtx_smartaudio_alternate_softserial_method = ON
 set vtx_band = 4
-set vtx_channel = 1
-set vtx_power = 1
-set vtx_low_power_disarm = OFF
+set vtx_channel = 7
+set vtx_power = 3
+set vtx_low_power_disarm = ON
 set vtx_pit_mode_chan = 1
 set vtx_max_power_override = 0
 set pinio_box1 = 47
